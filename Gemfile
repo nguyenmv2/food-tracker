@@ -41,7 +41,6 @@ group :development do
   gem "spring"
 
   gem "sorbet"
-  gem "tapioca", require: false
 end
 
 group :test do
