@@ -1355,6 +1355,7 @@ end
 module ActionView::TestCase::TestController::HelperMethods
   include ActionController::Base::HelperMethods
   include ApplicationHelper
+  include ItemsHelper
 end
 module ActionView::TestCase::Behavior
   def _routes; end

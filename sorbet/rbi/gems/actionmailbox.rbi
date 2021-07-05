@@ -233,6 +233,7 @@ end
 module Rails::Conductor::BaseController::HelperMethods
   include ActionController::Base::HelperMethods
   include ApplicationHelper
+  include ItemsHelper
 end
 class Rails::Conductor::ActionMailbox::InboundEmailsController < Rails::Conductor::BaseController
   def _layout(lookup_context, formats); end
